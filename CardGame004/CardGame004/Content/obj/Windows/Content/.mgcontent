@@ -4,8 +4,8 @@
   <Platform>Windows</Platform>
   <Config />
   <SourceFiles>
-    <File>C:/Users/Nik/source/repos/CardGame004/CardGame004/Content/Assets/button.png</File>
-    <File>C:/Users/Nik/source/repos/CardGame004/CardGame004/Content/Fonts/Font.spritefont</File>
+    <File>C:/Users/User/Desktop/csharp_programs/CardGame004/CardGame004/CardGame004/Content/Assets/button.png</File>
+    <File>C:/Users/User/Desktop/csharp_programs/CardGame004/CardGame004/CardGame004/Content/Fonts/Font.spritefont</File>
   </SourceFiles>
   <DestFiles>
     <File xsi:nil="true" />

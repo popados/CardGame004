@@ -45,6 +45,7 @@
     <Compile Include="Assets\GameObject.cs" />
     <Compile Include="Cards\Avatar\FireAvatar.cs" />
     <Compile Include="Cards\Card.cs" />
+    <Compile Include="Cards\Deck\Deck.cs" />
     <Compile Include="Cards\FireBallCard.cs" />
     <Compile Include="Cards\FireDrakeCard.cs" />
     <Compile Include="Cards\FlameStrikeCard.cs" />

@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Microsoft.Xna.Framework;
+using Microsoft.Xna.Framework.Graphics;
 
 namespace CardGame004.Cards
 {
@@ -28,6 +30,16 @@ namespace CardGame004.Cards
             isDead = false;
             summonSickness = false;
             //if spirit fire dies(last will) {1 damage}
+        }
+
+        public override void Draw(GameTime gameTime, SpriteBatch spriteBatch)
+        {
+            throw new NotImplementedException();
+        }
+
+        public override void Update(GameTime gameTIme)
+        {
+            throw new NotImplementedException();
         }
     }
 }

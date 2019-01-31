@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace CardGame004.Cards
 {
-    public abstract class Card
+    public abstract class Card : GameObject
     {
         //variables for cards
         public string CardName { get; set; }

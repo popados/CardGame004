@@ -12961,13 +12961,13 @@
             <value><see cref="F:Microsoft.Xna.Framework.Input.ButtonState.Pressed"/> if the up button is pressed; otherwise, <see cref="F:Microsoft.Xna.Framework.Input.ButtonState.Released"/>.</value>
         </member>
         <member name="T:Microsoft.Xna.Framework.Input.GamePadState">
-            <summary>
-            Represents specific information about the state of the controller,
-            including the current state of buttons and sticks.
+             <summary>
+             Represents specific information about the state of the controller,
+             including the current state of buttons and sticks.
             
-            This is implemented as a partial struct to allow for individual platforms
-            to offer additional data without separate state queries to GamePad.
-            </summary>
+             This is implemented as a partial struct to allow for individual platforms
+             to offer additional data without separate state queries to GamePad.
+             </summary>
         </member>
         <member name="F:Microsoft.Xna.Framework.Input.GamePadState.Default">
             <summary>
@@ -12986,14 +12986,25 @@
         </member>
         <member name="M:Microsoft.Xna.Framework.Input.GamePadState.#ctor(Microsoft.Xna.Framework.Vector2,Microsoft.Xna.Framework.Vector2,System.Single,System.Single,Microsoft.Xna.Framework.Input.Buttons)">
             <summary>
-            Initializes a new instance of the <see cref="T:Microsoft.Xna.Framework.Input.GamePadState"/> struct.
+            Initializes a new instance of the <see cref="T:Microsoft.Xna.Framework.Input.GamePadState"/> struct
             using the specified stick, trigger, and button values.
             </summary>
             <param name="leftThumbStick">Left stick value. Each axis is clamped between −1.0 and 1.0.</param>
             <param name="rightThumbStick">Right stick value. Each axis is clamped between −1.0 and 1.0.</param>
             <param name="leftTrigger">Left trigger value. This value is clamped between 0.0 and 1.0.</param>
             <param name="rightTrigger">Right trigger value. This value is clamped between 0.0 and 1.0.</param>
-            <param name="buttons"> Array or parameter list of Buttons to initialize as pressed.</param>
+            <param name="button">Button(s) to initialize as pressed.</param>
+        </member>
+        <member name="M:Microsoft.Xna.Framework.Input.GamePadState.#ctor(Microsoft.Xna.Framework.Vector2,Microsoft.Xna.Framework.Vector2,System.Single,System.Single,Microsoft.Xna.Framework.Input.Buttons[])">
+            <summary>
+            Initializes a new instance of the <see cref="T:Microsoft.Xna.Framework.Input.GamePadState"/> struct
+            using the specified stick, trigger, and button values.
+            </summary>
+            <param name="leftThumbStick">Left stick value. Each axis is clamped between −1.0 and 1.0.</param>
+            <param name="rightThumbStick">Right stick value. Each axis is clamped between −1.0 and 1.0.</param>
+            <param name="leftTrigger">Left trigger value. This value is clamped between 0.0 and 1.0.</param>
+            <param name="rightTrigger">Right trigger value. This value is clamped between 0.0 and 1.0.</param>
+            <param name="buttons"> Array of Buttons to initialize as pressed.</param>
         </member>
         <member name="M:Microsoft.Xna.Framework.Input.GamePadState.GetVirtualButtons">
             <summary>
@@ -15582,6 +15593,16 @@
         <member name="T:MonoGame.Utilities.ReflectionHelpers.SizeOf`1">
             <summary>
             Generics handler for Marshal.SizeOf
+            </summary>
+        </member>
+        <member name="M:Microsoft.Xna.Framework.Utilities.TimerHelper.GetCurrentResolution">
+            <summary>
+            Returns the current timer resolution in milliseconds
+            </summary>
+        </member>
+        <member name="M:Microsoft.Xna.Framework.Utilities.TimerHelper.SleepForNoMoreThan(System.Double)">
+            <summary>
+            Sleeps as long as possible without exceeding the specified period
             </summary>
         </member>
         <member name="T:MonoGame.Utilities.ZlibStream">

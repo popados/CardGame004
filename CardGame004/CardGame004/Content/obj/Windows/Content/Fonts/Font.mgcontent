@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PipelineBuildEvent xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <SourceFile>C:/Users/Nik/source/repos/CardGame004/CardGame004/Content/Fonts/Font.spritefont</SourceFile>
-  <SourceTime>2019-01-30T01:50:09.3274394-06:00</SourceTime>
-  <DestFile>C:/Users/Nik/source/repos/CardGame004/CardGame004/Content/bin/Windows/Content/Fonts/Font.xnb</DestFile>
-  <DestTime>2019-01-30T01:50:11.9205877-06:00</DestTime>
+  <SourceFile>C:/Users/User/Desktop/csharp_programs/CardGame004/CardGame004/CardGame004/Content/Fonts/Font.spritefont</SourceFile>
+  <SourceTime>2019-01-31T12:59:06.290133-06:00</SourceTime>
+  <DestFile>C:/Users/User/Desktop/csharp_programs/CardGame004/CardGame004/CardGame004/Content/bin/Windows/Content/Fonts/Font.xnb</DestFile>
+  <DestTime>2019-01-31T12:59:47.4164488-06:00</DestTime>
   <Importer>FontDescriptionImporter</Importer>
-  <ImporterTime>2018-10-21T19:53:22-05:00</ImporterTime>
+  <ImporterTime>2018-12-08T10:35:54-06:00</ImporterTime>
   <Processor>FontDescriptionProcessor</Processor>
-  <ProcessorTime>2018-10-21T19:53:22-05:00</ProcessorTime>
+  <ProcessorTime>2018-12-08T10:35:54-06:00</ProcessorTime>
   <Parameters>
     <Key>PremultiplyAlpha</Key>
     <Value>True</Value>

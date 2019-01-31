@@ -55,9 +55,10 @@ namespace CardGame004.States
             //when an object is added to the hand it is given a card object
             //the hand is hand.width / 2 for each button
             //clear drawstring method with a click
+            //create a hand that is displayed on all states(new list of objects created from another class)
+            //inside deck class create my list of cards
+            //each card class will have a template function associated with it that creates 
             //
-
-
 
 
             var NextPhaseButton = new Button(buttonTexture, buttonFont)
