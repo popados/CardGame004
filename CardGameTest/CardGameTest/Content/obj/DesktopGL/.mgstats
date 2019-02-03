@@ -1,0 +1,5 @@
+Source File,Dest File,Processor Type,Content Type,Source File Size,Dest File Size,Build Seconds
+"C:/Users/Nik/source/repos/CardGameTest/CardGameTest/Content/arial-36.spritefont","C:/Users/Nik/source/repos/CardGameTest/CardGameTest/Content/bin/DesktopGL/arial-36.xnb","FontDescriptionProcessor","SpriteFontContent",2008,136206,0.2910167
+"C:/Users/Nik/source/repos/CardGameTest/CardGameTest/Content/Controls/button.png","C:/Users/Nik/source/repos/CardGameTest/CardGameTest/Content/bin/DesktopGL/Controls/button.xnb","TextureProcessor","Texture2DContent",2026,144085,0.1420081
+"C:/Users/Nik/source/repos/CardGameTest/CardGameTest/Content/Controls/button_alpha.png","C:/Users/Nik/source/repos/CardGameTest/CardGameTest/Content/bin/DesktopGL/Controls/button_alpha.xnb","TextureProcessor","Texture2DContent",3300,144085,0.1590091
+"C:/Users/Nik/source/repos/CardGameTest/CardGameTest/Content/Fonts/font.spritefont","C:/Users/Nik/source/repos/CardGameTest/CardGameTest/Content/bin/DesktopGL/Fonts/font.xnb","FontDescriptionProcessor","SpriteFontContent",2008,37902,0.1660094

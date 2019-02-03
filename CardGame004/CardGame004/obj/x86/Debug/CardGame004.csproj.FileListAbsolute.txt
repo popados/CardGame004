@@ -48,3 +48,4 @@ C:\Users\User\Desktop\csharp_programs\CardGame004\CardGame004\CardGame004\obj\x8
 C:\Users\User\Desktop\csharp_programs\CardGame004\CardGame004\CardGame004\obj\x86\Debug\CardGame004.csproj.CopyComplete
 C:\Users\User\Desktop\csharp_programs\CardGame004\CardGame004\CardGame004\obj\x86\Debug\CardGame004.exe
 C:\Users\User\Desktop\csharp_programs\CardGame004\CardGame004\CardGame004\obj\x86\Debug\CardGame004.pdb
+C:\Users\Nik\source\repos\CardGame004\CardGame004\bin\Windows\x86\Debug\Content\Assets\BlankFireCard.xnb

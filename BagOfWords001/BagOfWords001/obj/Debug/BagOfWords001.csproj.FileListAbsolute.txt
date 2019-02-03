@@ -1,0 +1,7 @@
+C:\Users\Nik\source\repos\BagOfWords001\BagOfWords001\obj\Debug\BagOfWords001.csprojAssemblyReference.cache
+C:\Users\Nik\source\repos\BagOfWords001\BagOfWords001\obj\Debug\BagOfWords001.csproj.CoreCompileInputs.cache
+C:\Users\Nik\source\repos\BagOfWords001\BagOfWords001\bin\Debug\BagOfWords001.exe.config
+C:\Users\Nik\source\repos\BagOfWords001\BagOfWords001\bin\Debug\BagOfWords001.exe
+C:\Users\Nik\source\repos\BagOfWords001\BagOfWords001\bin\Debug\BagOfWords001.pdb
+C:\Users\Nik\source\repos\BagOfWords001\BagOfWords001\obj\Debug\BagOfWords001.exe
+C:\Users\Nik\source\repos\BagOfWords001\BagOfWords001\obj\Debug\BagOfWords001.pdb

@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Microsoft.Xna.Framework;
+using Microsoft.Xna.Framework.Graphics;
 
 namespace CardGame004.Cards.Avatar
 {
@@ -23,6 +25,16 @@ namespace CardGame004.Cards.Avatar
             playerTurn = false;
             isCreature = false;
             //no summon sickness for spells
+        }
+
+        public override void Draw(GameTime gameTime, SpriteBatch spriteBatch)
+        {
+            throw new NotImplementedException();
+        }
+
+        public override void Update(GameTime gameTIme)
+        {
+            throw new NotImplementedException();
         }
     }
 }

@@ -1,3 +1,4 @@
 Source File,Dest File,Processor Type,Content Type,Source File Size,Dest File Size,Build Seconds
+"C:/Users/Nik/source/repos/CardGame004/CardGame004/Content/Assets/Blank Card Pixel 001_2x.png","C:/Users/Nik/source/repos/CardGame004/CardGame004/Content/bin/Windows/Assets/BlankFireCard.xnb","TextureProcessor","Texture2DContent",1386,49237,0.0920052
 "C:/Users/Nik/source/repos/CardGame004/CardGame004/Content/Assets/button.png","C:/Users/Nik/source/repos/CardGame004/CardGame004/Content/bin/Windows/Assets/button.xnb","TextureProcessor","Texture2DContent",2881,12357,0.1020058
-"C:/Users/Nik/source/repos/CardGame004/CardGame004/Content/Fonts/Font.spritefont","C:/Users/Nik/source/repos/CardGame004/CardGame004/Content/bin/Windows/Fonts/Font.xnb","FontDescriptionProcessor","SpriteFontContent",2008,37902,0.2580148
+"C:/Users/Nik/source/repos/CardGame004/CardGame004/Content/Fonts/Font.spritefont","C:/Users/Nik/source/repos/CardGame004/CardGame004/Content/bin/Windows/Fonts/Font.xnb","FontDescriptionProcessor","SpriteFontContent",2008,21518,0.1300074

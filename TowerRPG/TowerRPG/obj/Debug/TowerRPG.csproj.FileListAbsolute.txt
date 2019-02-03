@@ -1,0 +1,7 @@
+C:\Users\Nik\source\repos\TowerRPG\TowerRPG\bin\Debug\TowerRPG.exe.config
+C:\Users\Nik\source\repos\TowerRPG\TowerRPG\bin\Debug\TowerRPG.exe
+C:\Users\Nik\source\repos\TowerRPG\TowerRPG\bin\Debug\TowerRPG.pdb
+C:\Users\Nik\source\repos\TowerRPG\TowerRPG\obj\Debug\TowerRPG.csprojAssemblyReference.cache
+C:\Users\Nik\source\repos\TowerRPG\TowerRPG\obj\Debug\TowerRPG.csproj.CoreCompileInputs.cache
+C:\Users\Nik\source\repos\TowerRPG\TowerRPG\obj\Debug\TowerRPG.exe
+C:\Users\Nik\source\repos\TowerRPG\TowerRPG\obj\Debug\TowerRPG.pdb

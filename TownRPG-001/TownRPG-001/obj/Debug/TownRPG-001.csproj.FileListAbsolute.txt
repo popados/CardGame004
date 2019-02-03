@@ -1,0 +1,7 @@
+C:\Users\Nik\source\repos\TownRPG-001\TownRPG-001\bin\Debug\TownRPG-001.exe.config
+C:\Users\Nik\source\repos\TownRPG-001\TownRPG-001\bin\Debug\TownRPG-001.exe
+C:\Users\Nik\source\repos\TownRPG-001\TownRPG-001\bin\Debug\TownRPG-001.pdb
+C:\Users\Nik\source\repos\TownRPG-001\TownRPG-001\obj\Debug\TownRPG-001.csprojAssemblyReference.cache
+C:\Users\Nik\source\repos\TownRPG-001\TownRPG-001\obj\Debug\TownRPG-001.csproj.CoreCompileInputs.cache
+C:\Users\Nik\source\repos\TownRPG-001\TownRPG-001\obj\Debug\TownRPG-001.exe
+C:\Users\Nik\source\repos\TownRPG-001\TownRPG-001\obj\Debug\TownRPG-001.pdb

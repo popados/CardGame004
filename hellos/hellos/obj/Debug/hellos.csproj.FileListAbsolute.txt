@@ -1,0 +1,7 @@
+C:\Users\Nik\source\repos\hellos\hellos\bin\Debug\hellos.exe.config
+C:\Users\Nik\source\repos\hellos\hellos\bin\Debug\hellos.exe
+C:\Users\Nik\source\repos\hellos\hellos\bin\Debug\hellos.pdb
+C:\Users\Nik\source\repos\hellos\hellos\obj\Debug\hellos.csprojAssemblyReference.cache
+C:\Users\Nik\source\repos\hellos\hellos\obj\Debug\hellos.csproj.CoreCompileInputs.cache
+C:\Users\Nik\source\repos\hellos\hellos\obj\Debug\hellos.exe
+C:\Users\Nik\source\repos\hellos\hellos\obj\Debug\hellos.pdb

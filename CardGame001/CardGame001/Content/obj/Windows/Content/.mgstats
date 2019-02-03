@@ -1,0 +1,3 @@
+Source File,Dest File,Processor Type,Content Type,Source File Size,Dest File Size,Build Seconds
+"C:/Users/Nik/source/repos/CardGame001/CardGame001/Content/Assets/button.png","C:/Users/Nik/source/repos/CardGame001/CardGame001/Content/bin/Windows/Content/Assets/button.xnb","TextureProcessor","Texture2DContent",2186,96085,0.1100063
+"C:/Users/Nik/source/repos/CardGame001/CardGame001/Content/Fonts/Font.spritefont","C:/Users/Nik/source/repos/CardGame001/CardGame001/Content/bin/Windows/Content/Fonts/Font.xnb","FontDescriptionProcessor","SpriteFontContent",2008,37902,0.1650095

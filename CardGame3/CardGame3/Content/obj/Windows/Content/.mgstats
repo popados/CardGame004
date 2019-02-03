@@ -1,0 +1,6 @@
+Source File,Dest File,Processor Type,Content Type,Source File Size,Dest File Size,Build Seconds
+"C:/Users/Nik/source/repos/CardGame3/CardGame3/Content/Assets/Button.fx","C:/Users/Nik/source/repos/CardGame3/CardGame3/Content/bin/Windows/Content/Assets/Button.xnb","EffectProcessor","CompiledEffectContent",658,725,0.3280187
+"C:/Users/Nik/source/repos/CardGame3/CardGame3/Content/Assets/button.png","C:/Users/Nik/source/repos/CardGame3/CardGame3/Content/bin/Windows/Content/Assets/button.xnb","TextureProcessor","Texture2DContent",2186,96085,0.0410023
+"C:/Users/Nik/source/repos/CardGame3/CardGame3/Content/Assets/BUTTON_2.png","C:/Users/Nik/source/repos/CardGame3/CardGame3/Content/bin/Windows/Content/Assets/BUTTON_2.xnb","TextureProcessor","Texture2DContent",2881,12357,0.0050003
+"C:/Users/Nik/source/repos/CardGame3/CardGame3/Content/Fonts/File.spritefont","C:/Users/Nik/source/repos/CardGame3/CardGame3/Content/bin/Windows/Content/Fonts/File.xnb","FontDescriptionProcessor","SpriteFontContent",2008,21518,0.1300074
+"C:/Users/Nik/source/repos/CardGame3/CardGame3/Content/Fonts/Font.spritefont","C:/Users/Nik/source/repos/CardGame3/CardGame3/Content/bin/Windows/Content/Fonts/Font.xnb","FontDescriptionProcessor","SpriteFontContent",2008,37902,0.0240014

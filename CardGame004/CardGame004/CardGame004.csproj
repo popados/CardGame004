@@ -42,6 +42,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="Assets\Button.cs" />
+    <Compile Include="Assets\CardTemplate.cs" />
     <Compile Include="Assets\GameObject.cs" />
     <Compile Include="Cards\Avatar\FireAvatar.cs" />
     <Compile Include="Cards\Card.cs" />

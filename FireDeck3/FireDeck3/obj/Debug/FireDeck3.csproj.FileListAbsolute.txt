@@ -1,0 +1,7 @@
+C:\Users\Nik\source\repos\FireDeck3\FireDeck3\bin\Debug\FireDeck3.exe.config
+C:\Users\Nik\source\repos\FireDeck3\FireDeck3\bin\Debug\FireDeck3.exe
+C:\Users\Nik\source\repos\FireDeck3\FireDeck3\bin\Debug\FireDeck3.pdb
+C:\Users\Nik\source\repos\FireDeck3\FireDeck3\obj\Debug\FireDeck3.csprojAssemblyReference.cache
+C:\Users\Nik\source\repos\FireDeck3\FireDeck3\obj\Debug\FireDeck3.csproj.CoreCompileInputs.cache
+C:\Users\Nik\source\repos\FireDeck3\FireDeck3\obj\Debug\FireDeck3.exe
+C:\Users\Nik\source\repos\FireDeck3\FireDeck3\obj\Debug\FireDeck3.pdb

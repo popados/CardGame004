@@ -19,6 +19,8 @@ namespace CardGame004.States
 
             var buttonTexture = _content.Load<Texture2D>("Assets/button");
             var buttonFont = _content.Load<SpriteFont>("Fonts/Font");
+            var templateTexture = _content.Load<Texture2D>("Assets/BlankFireCard");
+            Viewport viewport = graphicsDevice.Viewport;
 
 
             var DrawCardButton = new Button(buttonTexture, buttonFont)
@@ -45,6 +47,24 @@ namespace CardGame004.States
                 Text = "End",
                 _currentState = false,
             };
+            var firstCard = new CardTemplate(templateTexture, buttonFont)
+            {
+                Position = new Vector2( viewport.Width / 2 - templateTexture.Width - 100, 200),
+                Text = "First Card",
+
+            };
+            var secondCard = new CardTemplate(templateTexture, buttonFont)
+            {
+                Position = new Vector2(viewport.Width / 2 - templateTexture.Width + 100, 200),
+                Text = "Second Card",
+
+            };
+            var thirdCard = new CardTemplate(templateTexture, buttonFont)
+            {
+                Position = new Vector2(viewport.Width / 2 - templateTexture.Width , 200),
+                Text = "Third Card",
+
+            };
 
             //TODO
             //Create a deck class that contains 3 copies of the 7 cards
@@ -63,7 +83,7 @@ namespace CardGame004.States
 
             var NextPhaseButton = new Button(buttonTexture, buttonFont)
             {
-                Position = new Vector2(500, 400),
+                Position = new Vector2(500 , 400),
                 Text = "Next",
                 _currentState = false,
             };
@@ -74,7 +94,10 @@ namespace CardGame004.States
                 MainPhaseButton,
                 CombatPhaseButton,
                 EndPhaseButton,
-                NextPhaseButton
+                NextPhaseButton,
+                firstCard,
+                secondCard,
+                thirdCard
             };
         }
 
@@ -86,7 +109,6 @@ namespace CardGame004.States
         public override void Draw(GameTime gameTime, SpriteBatch spriteBatch)
         {
             spriteBatch.Begin();
-
             foreach (var GameObject in gameObjects)
             {
                 GameObject.Draw(gameTime, spriteBatch);

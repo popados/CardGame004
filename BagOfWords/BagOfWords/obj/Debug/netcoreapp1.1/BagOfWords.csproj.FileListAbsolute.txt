@@ -1,0 +1,9 @@
+C:\Users\Nik\source\repos\BagOfWords\BagOfWords\bin\Debug\netcoreapp1.1\BagOfWords.deps.json
+C:\Users\Nik\source\repos\BagOfWords\BagOfWords\bin\Debug\netcoreapp1.1\BagOfWords.runtimeconfig.json
+C:\Users\Nik\source\repos\BagOfWords\BagOfWords\bin\Debug\netcoreapp1.1\BagOfWords.runtimeconfig.dev.json
+C:\Users\Nik\source\repos\BagOfWords\BagOfWords\bin\Debug\netcoreapp1.1\BagOfWords.dll
+C:\Users\Nik\source\repos\BagOfWords\BagOfWords\bin\Debug\netcoreapp1.1\BagOfWords.pdb
+C:\Users\Nik\source\repos\BagOfWords\BagOfWords\obj\Debug\netcoreapp1.1\BagOfWords.csproj.CoreCompileInputs.cache
+C:\Users\Nik\source\repos\BagOfWords\BagOfWords\obj\Debug\netcoreapp1.1\BagOfWords.AssemblyInfo.cs
+C:\Users\Nik\source\repos\BagOfWords\BagOfWords\obj\Debug\netcoreapp1.1\BagOfWords.dll
+C:\Users\Nik\source\repos\BagOfWords\BagOfWords\obj\Debug\netcoreapp1.1\BagOfWords.pdb

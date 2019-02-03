@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PipelineBuildEvent xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <SourceFile>C:/Users/Nik/source/repos/CardGameTest/CardGameTest/Content/arial-36.spritefont</SourceFile>
+  <SourceTime>2018-10-29T13:11:44.372763-05:00</SourceTime>
+  <DestFile>C:/Users/Nik/source/repos/CardGameTest/CardGameTest/Content/bin/DesktopGL/arial-36.xnb</DestFile>
+  <DestTime>2018-10-29T13:11:54.9713692-05:00</DestTime>
+  <Importer>FontDescriptionImporter</Importer>
+  <ImporterTime>2018-10-21T19:53:22-05:00</ImporterTime>
+  <Processor>FontDescriptionProcessor</Processor>
+  <ProcessorTime>2018-10-21T19:53:22-05:00</ProcessorTime>
+  <Parameters>
+    <Key>PremultiplyAlpha</Key>
+    <Value>True</Value>
+  </Parameters>
+  <Parameters>
+    <Key>TextureFormat</Key>
+    <Value>Compressed</Value>
+  </Parameters>
+  <Dependencies />
+  <BuildAsset />
+  <BuildOutput />
+</PipelineBuildEvent>
