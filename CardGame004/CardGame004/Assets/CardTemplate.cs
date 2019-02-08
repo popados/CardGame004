@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using CardGame004.Cards;
 using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Content;
 using Microsoft.Xna.Framework.Graphics;
@@ -19,11 +20,13 @@ namespace CardGame004
         public bool _currentState;
         private MouseState previousMouse;
         private Texture2D _texture;
-
+        private Card _card;
+        private Vector2 _position;
         #endregion
 
         #region properties
         public int width;
+        private bool _selected;
 
         public event EventHandler Click;
 
@@ -33,7 +36,12 @@ namespace CardGame004
 
         public Vector2 Position { get; set; }
 
-        public string Text { get; set; }
+        public Vector2 NewPosition { get; set; }
+
+        public string CardNameText { get; set; }
+
+        public bool Dragging { get; set; }
+
         #endregion
 
         public Rectangle Rectangle
@@ -43,11 +51,16 @@ namespace CardGame004
                 return new Rectangle((int)Position.X, (int)Position.Y, _texture.Width, _texture.Height);
             }
         }
+        public Rectangle templateBox { get; set; }
 
-        public CardTemplate(Texture2D texture, SpriteFont font)
+        public CardTemplate(Texture2D texture, SpriteFont font, Card card)
         {
             _texture = texture;
             _font = font;
+            _card = card;
+            _position = Position;
+            templateBox = new Rectangle((int)Position.X, (int)Position.Y, _texture.Width, _texture.Height);
+
         }
         public void LoadContenet(ContentManager _content)
         {
@@ -58,18 +71,21 @@ namespace CardGame004
         public override void Draw(GameTime gameTime, SpriteBatch spriteBatch)
         {
             var color = Color.White;
-            if (_currentState)
+            if (Clicked)
                 color = Color.Gray;
             if (_hovering)
                 color = Color.DimGray;
-            spriteBatch.Draw(_texture, Rectangle, color);
+            spriteBatch.Draw(_texture, templateBox, color);
 
-            if (!string.IsNullOrEmpty(Text))
+
+            //card name string
+            if (!string.IsNullOrEmpty(CardNameText))
             {
-                var x = (Rectangle.X + (Rectangle.Width / 2)) - (_font.MeasureString(Text).X / 2);
-                var y = (Rectangle.Y + (Rectangle.Height / 2)) - (_font.MeasureString(Text).Y / 10);
+                var x = (Rectangle.X + (Rectangle.Width / 2)) - (_font.MeasureString(CardNameText).X / 2);
+                //vertical string
+                var y = (Rectangle.Y + (Rectangle.Height / 2)) - (_font.MeasureString(CardNameText).Y - 44);
 
-                spriteBatch.DrawString(_font, Text, new Vector2(x, y), Color.Black);
+                spriteBatch.DrawString(_font, CardNameText, new Vector2(x, y), Color.Black);
             }
 
         }
@@ -82,15 +98,21 @@ namespace CardGame004
 
             _hovering = false;
 
-            if (mouseRectangle.Intersects(Rectangle))
-            {
-                _hovering = true;
+            if (templateBox.Contains(mouseRectangle)){
+                Dragging = true;
 
+                if (Dragging) {
+                    templateBox = new Rectangle(currentMouse.X, currentMouse.Y,_texture.Width, _texture.Height);
+                }
+            }
+
+            if (mouseRectangle.Intersects(Rectangle))
+                _hovering = true;
                 if (currentMouse.LeftButton == ButtonState.Released && previousMouse.LeftButton == ButtonState.Pressed)
                 {
                     Click?.Invoke(this, new EventArgs());
                 }
             }
         }
+
     }
-}

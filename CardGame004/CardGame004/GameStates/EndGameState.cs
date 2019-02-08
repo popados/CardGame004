@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using CardGame004;
+using CardGame004.Cards;
 using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Content;
 using Microsoft.Xna.Framework.Graphics;
@@ -17,9 +18,14 @@ namespace CardGame004.States
         public EndGameState(Game1 game, GraphicsDevice graphicsDevice, ContentManager content) : base(game, graphicsDevice, content)
         {
 
+            Card imp = new ImpCard();
+            Card draco = new LittleDracoCard();
+            Card spirit = new SpiritOFireCard();
+
             var buttonTexture = _content.Load<Texture2D>("Assets/button");
             var buttonFont = _content.Load<SpriteFont>("Fonts/Font");
-
+            var templateTexture = _content.Load<Texture2D>("Assets/BlankFireCard");
+            Viewport viewport = graphicsDevice.Viewport;
 
             var DrawCardButton = new Button(buttonTexture, buttonFont)
             {
@@ -51,6 +57,27 @@ namespace CardGame004.States
                 Text = "Next",
                 _currentState = false,
             };
+
+
+            var firstCard = new CardTemplate(templateTexture, buttonFont, imp)
+            {
+
+                Position = new Vector2(viewport.Width - viewport.Width + templateTexture.Width - templateTexture.Width, 300),
+                CardNameText = imp.CardName,
+            };
+
+
+            var secondCard = new CardTemplate(templateTexture, buttonFont, spirit)
+            {
+                Position = new Vector2(viewport.Width - viewport.Width + templateTexture.Width, 300),
+                CardNameText = spirit.CardName,
+            };
+            var thirdCard = new CardTemplate(templateTexture, buttonFont, draco)
+            {
+                Position = new Vector2(viewport.Width - viewport.Width + templateTexture.Width + templateTexture.Width, 300),
+                CardNameText = draco.CardName,
+            };
+
             NextPhaseButton.Click += NextPhaseButton_Click;
             // Create a new SpriteBatch, which can be used to draw textures.
             gameObjects = new List<GameObject>() {
@@ -58,7 +85,10 @@ namespace CardGame004.States
                 MainPhaseButton,
                 CombatPhaseButton,
                 EndPhaseButton,
-                NextPhaseButton
+                NextPhaseButton,
+                firstCard,
+                secondCard,
+                thirdCard
             };
 
         }

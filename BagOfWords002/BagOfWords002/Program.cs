@@ -15,7 +15,7 @@ namespace BagOfWords002
             //string[] words = reader.ReadToEnd().Split(' ');
 
             int counter = 0;
-            string[] lines = System.IO.File.ReadAllLines(@"C:\Users\Nik\source\repos\BagOfWords002\fed_one.txt");
+            string[] lines = System.IO.File.ReadAllLines(@"C:\Users\Nik\source\repos\BagOfWords002\federalist_docs.txt");
             string[] words = File.ReadAllLines(@"C:\Users\Nik\source\repos\BagOfWords002\BagOfWords002\bin\Debug\SavedFreqFedOne.txt");
             List<string> ArrayDocOne = new List<string>();
             List<string> uniqueWords = new List<string>();
@@ -42,6 +42,8 @@ namespace BagOfWords002
             FrequencyDist<string> cs = new FrequencyDist<string>(ArrayDocOne);
             foreach (var v in cs.ItemFreq.Values) {
                 writeUnique.WriteLine(v.value + " : " + v.count);
+                string[] str;
+                writeUnique.ToString();
 
             }
             writeUnique.Close();

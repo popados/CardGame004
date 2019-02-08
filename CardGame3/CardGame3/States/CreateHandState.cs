@@ -123,6 +123,9 @@ public CreateHandState(Game1 game, GraphicsDevice graphicsDevice, ContentManager
         private void CardOneHand_Click( object sender, EventArgs e)
         {
             player.Health -= startHand[0].Attack;
+            if (player.Health <= 0) {
+                _game.ChangeState(new MenuState(_game, _graphicsDevice, _content));
+            }
         }
 
     public override void Draw(GameTime gameTime, SpriteBatch spriteBatch)
